@@ -33,7 +33,7 @@ directory(){
 	cd /home/testrace
 }
 install(){
-	[[ ! -d /home/testrace/besttrace ]] && wget https://raw.githubusercontent.com/PhilCity/testrace/master/besttrace.tar.gz && tar -zxf besttrace.tar.gz && rm besttrace.tar.gz
+	[[ ! -d /home/testrace/besttrace ]] && wget https://raw.githubusercontent.com/ccgakki/testrace/master/besttrace.tar.gz && tar -zxf besttrace.tar.gz && rm besttrace.tar.gz
 	[[ ! -d /home/testrace/besttrace ]] && echo -e "${Error} download failed, please check!" && exit 1
 	chmod -R +x /home/testrace
 }
