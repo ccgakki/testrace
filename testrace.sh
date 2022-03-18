@@ -162,13 +162,13 @@ repeat_test_alternative(){
 
 
 test_all(){
-	result_all	'101.227.255.45'	'上海电信(天翼云)'
+	result_all	'180.149.128.9'	'北京电信'
 	result_all	'58.32.32.1'	'上海电信CN2'
 
 	result_all	'101.71.241.238'	'浙江杭州联通'
 
-	result_all	'120.232.96.1'		'广州移动1'
-        result_all      '183.232.226.1'          '广州移动2'
+	result_all	'120.241.71.2'		'广州移动120'
+        result_all      '183.232.226.2'          '广州移动183'
 	result_all	'202.205.6.30'		'北京教育网'
 
 	echo -e "${Info} 四网路由快速测试 已完成 ！"
